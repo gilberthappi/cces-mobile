@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "CCES",
+    "slug": "cces",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cceslogo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FFFFFF",
+      "image": "./assets/cceslogo.png",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cceslogo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.happigilbert.cces"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/cceslogo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/cceslogo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "happigilbert"
+  }
+}
